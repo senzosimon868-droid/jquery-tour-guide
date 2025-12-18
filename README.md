@@ -1,7 +1,7 @@
-# JQuery My Tour Guide
+# JQuery Tour Guide
 
 > Original Repos:   
-> - JQuery My Tour Guide: https://github.com/a19836/jquery-tour-guide/   
+> - JQuery Tour Guide: https://github.com/a19836/jquery-tour-guide/   
 > - Bloxtor: https://github.com/a19836/bloxtor/
 
 ## Overview
